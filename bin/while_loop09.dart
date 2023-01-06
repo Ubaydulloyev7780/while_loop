@@ -5,7 +5,7 @@
   
 */
 String func(int a) {
-  int i = 0;
+  int i = 2;
   String s = '';
   while (i <= a) {
     s += i.toString();
