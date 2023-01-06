@@ -6,4 +6,14 @@
   
   
 */
-void main() {}
+String func(int a) {
+  if (a % 2 == 1) {
+    return "tub son";
+  } else {
+    return "tub son emas";
+  }
+}
+
+void main() {
+  print(func(7));
+}

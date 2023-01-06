@@ -4,4 +4,17 @@
   
   
 */
-void main() {}
+String func(int a) {
+  int i = 0;
+  String s = '';
+  while (i <= a) {
+    s += i.toString();
+    i += 2;
+  }
+  return s;
+}
+
+void main() {
+  print(func(10));
+}
+
