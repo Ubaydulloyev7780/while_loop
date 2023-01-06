@@ -7,16 +7,16 @@
   
 */
 String func(int a) {
-  int i = 0;
+  int i = 0, s = 0;
   while (i < a) {
+    s += i;
     i++;
   }
 
-  if (i % 2 == 1) {
+  if (s % 2 == 1) {
     return "tub son";
   }
-    return "tub son emas";
-  
+  return "tub son emas";
 }
 
 void main() {
