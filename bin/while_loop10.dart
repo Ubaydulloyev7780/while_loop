@@ -6,19 +6,21 @@
   
   
 */
-String func(int a) {
-  int i = 0, s = 0;
-  while (i < a) {
-    s += i;
+String func(num a) {
+  num i = 1, s = 0;
+  while (i <= a) {
+    if (a % i == 0) {
+      s++;
+    }
     i++;
   }
 
-  if (s % 2 == 1) {
+  if (s == 2) {
     return "tub son";
   }
   return "tub son emas";
 }
 
 void main() {
-  print(func(7));
+  print(func(12));
 }
